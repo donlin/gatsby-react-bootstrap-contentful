@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-react-bootstrap",
+  "name": "gatsby-react-bootstrap-contentful",
   "private": true,
-  "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
-  "version": "0.1.0",
-  "author": "Billy Jacoby <billyjacoby@gmail.com>",
+  "description": "A starter that includes and configures react-bootstrap and contentful. ",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.3.34",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-manifest": "^2.0.29",
@@ -13,6 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-contentful": "^2.1.69",
     "gatsby-source-filesystem": "^2.0.33",
     "gatsby-transformer-sharp": "^2.1.18",
     "node-sass": "^4.12.0",
@@ -28,7 +28,8 @@
     "prettier": "^1.17.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "contentful"
   ],
   "license": "MIT",
   "scripts": {
@@ -46,6 +47,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "homepage": "https://billyjacoby.github.io/gatsby-react-bootstrap-starter/"
+  }
 }

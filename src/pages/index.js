@@ -47,6 +47,13 @@ const IndexPage = () => (
             >
               gatsby-plugin-sass
             </ListGroup.Item>
+            <ListGroup.Item
+              action
+              href="https://www.contentful.com/"
+              target="_blank"
+            >
+              Contentful
+            </ListGroup.Item>
           </ListGroup>
         </Col>
       </Row>
